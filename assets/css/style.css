@@ -57,6 +57,9 @@ width: 300px;
 height: 100px;
 text-indent: 0;
 }
+
+/* I struggled with adjust the nav bar to center it with the body div of page */
+
 .nav_bar{
     margin-right: 40px;
     padding-top: 40px;
@@ -97,7 +100,7 @@ footer {
     display: block;
     width: 100%;
     }
-/* Move to the left 200px to match my_name */
+/* Struggled to move the below the left 200px to match Riley Brenner (my_name)  */
 
 .about_me {
     left: 200px;
@@ -129,14 +132,13 @@ width: 300px;
 height: auto; 
 }
 
-/* .flex {
-    display: flex
-} */
+
 
 .portfolio_body {
     float: left;
+
 }
-/* Get Images to be horizontally listed around each other with flex */
+/* I was stuck here with getting Images to be horizontally listed around each other with flex / float */
 
 .portfolio_project {
     position: relative;
@@ -163,7 +165,13 @@ height: auto;
 }
 .portfolio_image {
     position: absolute;
+    /* margin: 80px; */
+    height: 150px;
+    width: 300px;
+
 }
+/* I was stuck here with getting footer to stick to the bottom */
+
 .footer {
     position: absolute;
     bottom: 0;
@@ -172,15 +180,17 @@ height: auto;
     padding: 0 0 10 px 0;
     width: 100%;
     text-align: center;
+    height: 3.5rem;
 
 }
+
+/* I was having difficulty removing some padding between Contact and the Name/Email/Mesage */
 
 .contact {
     position: relative;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
     font-size: 18px;
-    /* padding-bottom: 20px; */
     text-indent: 0;
     padding-top: 50px;
     margin-bottom: 60px;
