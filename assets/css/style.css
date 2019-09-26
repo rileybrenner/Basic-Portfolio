@@ -129,16 +129,18 @@ width: 300px;
 height: auto; 
 }
 
-.flex {
+/* .flex {
     display: flex
-}
+} */
+
 .portfolio_body {
-    flex-wrap: wrap;
+    float: left;
 }
 /* Get Images to be horizontally listed around each other with flex */
 
 .portfolio_project {
     position: relative;
+    float: left;
     margin: 15px 15px 15px 15p;
     width: 300px;
     height: 200px;
