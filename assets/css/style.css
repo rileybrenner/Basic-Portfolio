@@ -1,0 +1,187 @@
+a, p {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+}
+
+html {
+    background-image: url('../images/wov.png');
+    background-color: #ffffff;
+    height: 100vh;
+}
+
+header{
+    position: absolute;
+    width: 100vw;
+    height: 100px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    top: 0;
+    right: 0;
+    flex: 1;
+    border-bottom: 2px solid #cccccc;
+    margin-bottom: 50px;
+}
+
+p {
+    margin: 0px 0px 0px 0px;
+}
+h1, h2 {
+    font-family: 'Georgia', Times New Roman, Times, serif;
+    font-weight: bold;
+    color: #ffffff;
+}
+h1 {
+    font-size: 38px;
+}
+h2 {font-size: 34px;
+}
+.name_label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    vertical-align: middle;
+    bottom: 10px;
+    margin: auto 0 auto 0;
+    padding: 50px 0 0 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* Need to adjust padding below the "About Me" line */
+
+.opening_line {
+color: #4aaaa5;
+width: 300px;
+height: 100px;
+text-indent: 0;
+}
+.nav_bar{
+    margin-right: 40px;
+    padding-top: 40px;
+    width: 400px;
+    height: 120px;
+    text-align: center;
+    margin-left: auto;
+}
+.nav_bar_items{
+    position: relative;
+    display: inline;
+    text-align: center;
+    vertical-align: middle;
+    text-align: center;
+}
+.nav_bar_link {
+    text-decoration: none;
+    font-weight: normal;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.my_name {
+    position: absolute;
+    background-color: #4aaaa5;
+    height: 90px;
+    width: 300px;
+    left: 200px;
+    margin-left: auto;
+    margin-top: 10px;
+}
+footer {
+    position: absolute;
+    overflow: hidden;
+    border-top: 5px solid #4aaaa5;
+    padding-bottom: 20px;
+    height: 50px;
+    background-color: #666666;
+    display: block;
+    width: 100%;
+    }
+/* Move to the left 200px to match my_name */
+
+.about_me {
+    left: 200px;
+    padding: 25px 25px 25px 25px;
+    margin-top: 125px;
+    min-height: 300px;
+    width: 100%;
+    height: 100%;
+    width: 960px;
+    background-color: white;
+    margin-left: 50 px;
+    margin-right: 50 px;
+    border: 1px solid #dddddd;
+    line-height: 20px;
+    min-height: 300px;
+}
+.about_me_content {
+margin-top: 50px;
+padding-left: 25px;
+padding-right: 25px;
+margin-left: 25px;
+margin-right: 25px;
+}
+.my_photo{
+float: left;
+height: auto; 
+padding: 50px;
+width: 300px;
+height: auto; 
+}
+
+.flex {
+    display: flex
+}
+.portfolio_body {
+    flex-wrap: wrap;
+}
+/* Get Images to be horizontally listed around each other with flex */
+
+.portfolio_project {
+    position: relative;
+    margin: 15px 15px 15px 15p;
+    width: 300px;
+    height: 200px;
+}
+.portfolio_label {
+    position: absolute;
+    background-color: #4aaaa5;
+    text-indent: 0;
+    padding-bottom: 5px;
+    padding-top: 15px;
+    text-align: center;
+    vertical-align: middle;
+    margin: 0 0 0 0;
+    font-size: 24px;
+    font-weight: normal;
+    top: 75%;
+    height: 40px;
+    width: 300px;
+
+}
+.portfolio_image {
+    position: absolute;
+}
+.footer {
+    position: absolute;
+    bottom: 0;
+    font-size: 12px;
+    color: white;
+    padding: 0 0 10 px 0;
+    width: 100%;
+    text-align: center;
+
+}
+
+.contact {
+    position: relative;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    font-size: 18px;
+    /* padding-bottom: 20px; */
+    text-indent: 0;
+    padding-top: 50px;
+    margin-bottom: 60px;
+    width: 960px;
+
+}
